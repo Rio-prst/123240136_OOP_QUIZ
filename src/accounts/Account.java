@@ -24,4 +24,5 @@ public abstract class Account {
     }
     
     public abstract void behaviorType();
+    public abstract int minInitialDeposit();
 }

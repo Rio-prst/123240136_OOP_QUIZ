@@ -14,5 +14,10 @@ public class SavingsAccount extends Account {
     public void behaviorType() {
         System.out.println("Specialized for long-term wealth growth");
     }
+
+    @Override
+    public int minInitialDeposit() {
+        return 50000;
+    }
     
 }

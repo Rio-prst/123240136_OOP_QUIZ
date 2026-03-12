@@ -14,5 +14,10 @@ public class ValasAccount extends Account {
     public void behaviorType() {
         System.out.println("Support ATM linkage and cash withdrawls");
     }
+
+    @Override
+    public int minInitialDeposit() {
+        return 50;
+    }
     
 }

@@ -14,5 +14,10 @@ public class InvesmentAccount extends Account {
     public void behaviorType() {
         System.out.println("Flexible account (support all transactions)");
     }
+
+    @Override
+    public int minInitialDeposit() {
+        return 1000000;
+    }
     
 }
